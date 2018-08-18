@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}                 % 1 inch margins
+\usepackage[parfill]{parskip}                     % block paragraphs
+\frenchspacing                                    % disable additional space after a period
+\usepackage[none]{hyphenat}                       % disable wrapping w/hyphens
+\usepackage[sf,bf,tiny,compact]{titlesec}         % ss/bf titles w/minimal top & bottom margins
+\usepackage{hyperref}
+\hypersetup{                                      % document metadata
+  pdfauthor={John Doe},
+  pdfcreator={},
+  pdfkeywords={},
+  pdflang={English},
+  pdfsubject={LaTeX Example},
+  pdftitle={Simple Document}
+}
+
+%% BEGIN fonts
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setromanfont{Libre Caslon Text}
+\setsansfont[
+  BoldFont={* SemiBold},
+  BoldItalicFont={* SemiBold Italic}
+]{Libre Franklin}
+%% END fonts
+
+%% BEGIN title formatting
+\usepackage{titling}                              % better control over the title block
+\setlength{\droptitle}{-70pt}                     % less verticale space preceding the title
+\pretitle{\begin{center}\LARGE\sffamily\bfseries} % Large, bold, sans-serif title
+\posttitle{\par\end{center}}
+\preauthor{}\postauthor{}                         % clear formatting for author
+\predate{}\postdate{}                             % clear formatting for date
+%% END title formatting
+
+\usepackage{lipsum}                               % sample text generator
+
+\title{Simple Document}
+\author{}
+\date{}
+
+\begin{document}
+\raggedright
+\maketitle
+
+\section*{First Section}
+\lipsum[1-2]
+
+\section*{Second Section}
+\lipsum[3-5]
+\end{document}
