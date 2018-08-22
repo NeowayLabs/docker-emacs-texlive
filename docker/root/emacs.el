@@ -27,8 +27,11 @@
     \\usepackage{amssymb}                         % AMS math symbols
     \\usepackage{hyperref} % [hidelinks=true]]
     \\usepackage[includeheadfoot,margin=1.5cm]{geometry}
+    \\frenchspacing                               % disable additional space after a period
     \\usepackage[parfill]{parskip}                % block paragraphs
     \\usepackage[sf,it,tiny,compact]{titlesec}    % ss/bf titles w/minimal top & bottom margins
+    \\titleformat*{\\section}{\\bfseries\\sffamily}
+    \\titleformat*{\\subsection}{\\itshape\\sffamily}
 
     %% BEGIN custom-fonts
     \\usepackage{fontspec}

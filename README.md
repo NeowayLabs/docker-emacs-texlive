@@ -5,8 +5,8 @@ TeX Live and Emacs in a Docker container.
 This project contains the configuration for a Docker container that can be used
 for generating decent looking PDFs with Org Mode and/or XeLaTeX. The
 configuration is centered around an installation of TeX Live which provides
-XeLaTeX and it's supporting tools and packages. The default entry point for the
-wraps `latexmk`.
+XeLaTeX and it's supporting tools and packages. The image's default entry point
+is `latexmk`.
 
 > *NOTE*: For details about how to use this image see the use cases below.
 
