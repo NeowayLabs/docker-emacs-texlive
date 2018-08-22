@@ -24,6 +24,8 @@ apt-get install -y --no-install-recommends \
 # Install texlive w/XeLaTeX support
 # ----------------------------------------
 apt-get install -y --no-install-recommends \
+        xz-utils \
+        xzdec
         texlive \
         texlive-generic-recommended \
         texlive-latex-recommended \
