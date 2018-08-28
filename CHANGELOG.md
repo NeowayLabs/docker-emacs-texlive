@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.0.6]
+
+### Fixed
+  + Typo in provisioning script that was preventing texlive from installing
+
+## [1.0.5]
+
 ### Changed
   + Moved to GitHub
   + Split out font install recipes
