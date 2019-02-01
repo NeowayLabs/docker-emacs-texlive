@@ -1,6 +1,7 @@
 # emacs-lexlive CHANGELOG
 
 ## [Unreleased]
+  + Added *Montserrat*
 
 ## [1.0.6]
 

@@ -20,6 +20,7 @@ source fonts are included:
 | [Lato](http://www.latofonts.com/lato-free-fonts/)                       | [OFL 1.1]   |
 | [Libre Caslon Text](https://github.com/impallari/Libre-Caslon-Text)     | [OFL 1.1]   |
 | [Libre Franklin](https://github.com/impallari/Libre-Franklin)           | [OFL 1.1]   |
+| [Montserrat](https://github.com/JulietaUla/Montserrat)                  | [OFL 1.1]   |
 | [Nimbus Sans L](https://www.fontsquirrel.com/fonts/nimbus-sans-l)       | [GNU GPLv2] |
 
 [OFL 1.1]: https://opensource.org/licenses/OFL-1.1
